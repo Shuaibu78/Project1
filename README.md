@@ -4,12 +4,12 @@ This repository contains a website built by the use of Html and internal css and
 
 - A picture
 
--The details about the members
+- The details about the members
 
 - A navigation and footer
 
 - It also contain comment on each tag
 
-CONTRIBUTORS
+# CONTRIBUTORS
 - Shuaibu78
 - f-u-njoku
