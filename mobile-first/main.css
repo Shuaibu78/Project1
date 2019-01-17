@@ -1,0 +1,55 @@
+ /* Seeting the background colour for the header and footer*/
+        #foot, #head {
+            background-color:  navy;
+            color: silver;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        /*Setting the footer to be in a fixed position */
+        #foot {
+            position:fixed;
+            left:0px;
+            bottom:0px;
+            height:20px;
+            width:100%;
+        }
+
+        /* Setting the background colour and font of the webpage*/
+        body {
+            background-color: silver;
+            font-family: sans-serif;
+            margin: 0 auto;
+        }
+
+            #container{
+                display: flex;
+                padding-right: 5px;
+            }
+
+            #container > div{
+                flex: 1;
+            }
+
+            /* Add responsiveness - on screens less than 800px wide, display the navbar vertically instead of horizontally */
+            @media screen and (max-width: 800px) and (min-width: 500px){
+                #container {
+                    flex-wrap: wrap;
+                    padding-right: 20px;
+                }
+
+                #container > div {
+                    flex-basis: 50%;
+                    }
+                }
+
+                @media screen and (max-width: 500px) and (min-width: 0px){
+                    #container {
+                        flex-wrap: wrap;
+                        padding-right: 20px;
+                    }
+
+                    #container > div {
+                        flex-basis: 50%;
+                    }
+                }
